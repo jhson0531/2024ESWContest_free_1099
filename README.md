@@ -12,22 +12,23 @@ KAIST 전기및전자공학부 조형진<br/>
 
 폴더 구성<br/>
 |ㅡㅡㅡㅡㅡ experiment<br/>
-|              |ㅡㅡㅡㅡㅡㅡ code : 데이터셋을 얻기 위해 실험을 할 때 사용한 MCU 코드<br/>
-|              |<br/>
-|              |ㅡㅡㅡㅡㅡㅡ data : SD카드에 저장된 파일들 / film - 필름 바닥 위에서 실험한 데이터 / nonwoven - 부직포 바닥 위에서 실험한 데이터 / rawData, calculatedData<br/>
-|                                  [film은 SD카드에 저장할 때 rawData만 저장했음. 그 뒤에 엑셀로 calculatedData를 만듬]<br/>
+|       |ㅡㅡㅡㅡㅡㅡ code : 데이터셋을 얻기 위해 실험을 할 때 사용한 MCU 코드<br/>
+|       |<br/>
+|       |ㅡㅡㅡㅡㅡㅡ data : SD카드에 저장된 파일들 / film - 필름 바닥 위에서 실험한 데이터 / nonwoven - 부직포 바닥 위에서 실험한
+|                 데이터 / rawData, calculatedData<br/>
+|                [film은 SD카드에 저장할 때 rawData만 저장했음. 그 뒤에 엑셀로 calculatedData를 만듬]<br/>
 |<br/>
 |ㅡㅡㅡㅡㅡ MLP<br/>
-|           |ㅡㅡㅡㅡㅡㅡㅡㅡ experimentData.xlsx : MLP 학습에 사용된 데이터<br/>
-|           |ㅡㅡㅡㅡㅡㅡㅡㅡ MLP.py : MLP 코드<br/>
+|      |ㅡㅡㅡㅡㅡㅡㅡㅡ experimentData.xlsx : MLP 학습에 사용된 데이터<br/>
+|      |ㅡㅡㅡㅡㅡㅡㅡㅡ MLP.py : MLP 코드<br/>
 |<br/>
 |<br/>
 |ㅡㅡㅡㅡㅡ prediction<br/>
-|             |ㅡㅡㅡㅡㅡㅡ code : MLP를 통해 만든 예측 모델을 적용시킨 MCU 코드<br/>
-|                            |ㅡㅡㅡㅡㅡㅡㅡ action.h : 에어백 작동 여부 함수를 포함한 헤더<br/>
-|                            |ㅡㅡㅡㅡㅡㅡㅡ data.h : 가중치<br/>
+|       |ㅡㅡㅡㅡㅡㅡ code : MLP를 통해 만든 예측 모델을 적용시킨 MCU 코드<br/>
+|               |ㅡㅡㅡㅡㅡㅡㅡ action.h : 에어백 작동 여부 함수를 포함한 헤더<br/>
+|               |ㅡㅡㅡㅡㅡㅡㅡ data.h : 가중치<br/>
 |<br/>
 |<br/>
 |ㅡㅡㅡㅡㅡ try : 시도해 보았지만 실패한 것들<br/>
-            |ㅡㅡㅡㅡㅡㅡㅡㅡ GP2Y0A710.ino : 이 적외선 센서를 이용하여 측정해 보려고 시도하였지만 측정 거리가 정확하지 않아서 실패<br/>
-            |ㅡㅡㅡㅡㅡㅡㅡㅡ interrupter.ino : 모터에 슬릿을 달고 포토 인터럽터로 자동차의 속력을 알아내려고 하였으나 속도가 정확히 나오지 않아서 실패 -> 거리센서에서 속도 추출<br/>
+      |ㅡㅡㅡㅡㅡㅡㅡㅡ GP2Y0A710.ino : 이 적외선 센서를 이용하여 측정해 보려고 시도하였지만 측정 거리가 정확하지 않아서 실패<br/>
+      |ㅡㅡㅡㅡㅡㅡㅡㅡ interrupter.ino : 모터에 슬릿을 달고 포토 인터럽터로 자동차의 속력을 알아내려고 하였으나 속도가 정확히 나오지 않아서 실패 -> 거리센서에서 속도 추출<br/>
