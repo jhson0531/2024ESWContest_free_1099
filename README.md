@@ -14,8 +14,8 @@ KAIST 전기및전자공학부 조형진<br/>
 |ㅡㅡㅡㅡㅡ experiment<br/>
 |       |ㅡㅡㅡㅡㅡㅡ code : 데이터셋을 얻기 위해 실험을 할 때 사용한 MCU 코드<br/>
 |       |<br/>
-|       |ㅡㅡㅡㅡㅡㅡ data : SD카드에 저장된 파일들
-|               film - 필름 바닥 위에서 실험한 데이터
+|       |ㅡㅡㅡㅡㅡㅡ data : SD카드에 저장된 파일들<br/>
+|               film - 필름 바닥 위에서 실험한 데이터<br/>
 |               nonwoven - 부직포 바닥 위에서 실험한 데이터 / rawData, calculatedData<br/>
 |              [film은 SD카드에 저장할 때 rawData만 저장했음. <br/>
 |               그 뒤에 엑셀로 calculatedData를 만듬] <br/>
